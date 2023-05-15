@@ -122,6 +122,9 @@ body {
   text-align: center;
   color: var(--navy-color);
 }
+.team-item {
+  background-color: var(--white-color);
+}
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -144,23 +147,19 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris-color); 
   background-color: var(--cloud-color);
+  cursor: pointer;
   }
   .portfolio-btn:hover,
   .portfolio-btn:focus {
   background-color: var(--ocean-color);
   color: var(--white-color);
   }
-/*TODO Portfolio Sections*/
-.row-subtitle { 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.text {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-color);
-}
-.row-text {
-  
-}
+  color: var(--slate-color);
+  }
 
 /*TODO Footer*/
 .footer {
