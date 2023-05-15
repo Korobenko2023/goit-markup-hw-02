@@ -153,6 +153,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-color);
 }
+.item-text {
+  color: var(--slate-color);
+}
 /*TODO Footer*/
 .footer {
   background: var(--navy-color);
